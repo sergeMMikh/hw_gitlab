@@ -1,14 +1,13 @@
-# Домашнее задание к занятию "`GitLab`" - `Михалёв Сергей`
+# Домашнее задание к занятию "`Обзор систем ИТ-мониторинга`" - `Михалёв Сергей`
+
+##` Так как доступ к платному аккаунту на Yandex мне закрыт, то такущее задание сделано на Amazon AWS`##
 
 ### Задание 1
 
-**Что нужно сделать:**
+На Amazon AWS запущены дыв облачных сервера для работы с Gitlab и Zabbix. 
 
-1. Разверните GitLab локально, используя Vagrantfile и инструкцию, описанные в [этом репозитории](https://github.com/netology-code/sdvps-materials/tree/main/gitlab).   
-2. Создайте новый проект и пустой репозиторий в нём.
-3. Зарегистрируйте gitlab-runner для этого проекта и запустите его в режиме Docker. Раннер можно регистрировать и запускать на той же виртуальной машине, на которой запущен GitLab.
-
-В качестве ответа в репозиторий шаблона с решением добавьте скриншоты с настройками раннера в проекте.
+Называются они соответственно: `Ubuntu4Gitlab` и `Zabb`.
+Методами мониторинга AWS получен [Dasboard](https://cloudwatch.amazonaws.com/dashboard.html?dashboard=Today_DashBoard&context=eyJSIjoidXMtZWFzdC0xIiwiRCI6ImN3LWRiLTEzMzUwMDc1OTIwOCIsIlUiOiJ1cy1lYXN0LTFfYVVqTmdidDNwIiwiQyI6IjJibTY4b3J2am12cTJqOHZzZmdqZTg5azRhIiwiSSI6InVzLWVhc3QtMTo3ZTFmODA4MS05NTZjLTQ0MmItYWVmMS1mMWUyYzQ4MDVjNTYiLCJNIjoiUHVibGljIn0=) 
 
 ---
 
